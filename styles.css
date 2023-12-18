@@ -1,0 +1,128 @@
+* {
+  font-family: "Poppins", sans-serif;
+  color: #161a49;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #b9b9b9;
+}
+
+header {
+  margin: 47px 0 246px 42px;
+}
+.link-header {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  color: #17233d;
+  cursor: pointer;
+  margin-right: 32px;
+}
+.button-header {
+  background: #6fbf44;
+  border-radius: 6px;
+  width: 124px;
+  height: 51px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  color: #fff;
+  cursor: pointer;
+}
+.logo-imagem {
+  width: 585.18px;
+  height: 500px;
+  margin-left: 121px;
+  position: relative;
+}
+section {
+  display: inline-block;
+  margin-left: 84.98px;
+}
+h1 {
+  color: #161a49;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 82px;
+}
+p {
+  color: #4b505a;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  width: 493px;
+  margin-top: 47px;
+  margin-bottom: 55px;
+}
+.button-main {
+  font-weight: 500;
+  line-height: 27px;
+  color: #ffffff;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  background: #6fbf44;
+  width: 122px;
+  height: 27px;
+  cursor: pointer;
+}
+@media screen and (max-width: 735px) {
+  section {
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+  }
+  .link-header {
+    display: none;
+    height: auto;
+    width: 100%;
+    position: static;
+  }
+  .button-header {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  .logo-imagem {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 268px;
+    width: 280px;
+  }
+  h1 {
+    font-size: 30px;
+    line-height: 30px;
+    width: auto;
+    margin: 50px 50px 0px 50px;
+    margin-top: auto;
+    text-align: center;
+  }
+  p {
+    font-size: 18px;
+    line-height: 33px;
+    width: auto;
+    margin: 30px 30px 10px 30px;
+    text-align: center;
+  }
+  img {
+    max-width: 90%;
+    height: auto;
+  }
+  .button-main {
+    margin: 0 auto;
+    display: block;
+    height: 25px;
+  }
+}
+@media screen and (max-width: 900px) {
+  section {
+    height: 70%;
+  }
+}
